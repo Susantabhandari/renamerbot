@@ -1,6 +1,6 @@
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit @Susantabhandari Github
+# Subscribe Telegram Channel For Amazing Bot @Susanta_Bhandarii
+# Ask Doubt on telegram @lifegrambot
 
 from aiohttp import web
 
@@ -8,7 +8,7 @@ routes = web.RouteTableDef()
 
 @routes.get("/", allow_head=True)
 async def root_route_handler(request):
-    return web.json_response("LazyDeveloper")
+    return web.json_response("Telegram Subscribe @Susanta_Bhandarii")
 
 
 async def web_server():
