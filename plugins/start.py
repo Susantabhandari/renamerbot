@@ -28,9 +28,9 @@ async def start(client, message):
         InlineKeyboardButton(' About', callback_data='about'),
         InlineKeyboardButton(' Help', callback_data='help')
         ],[
-        InlineKeyboardButton("My best Friend !", url='tg://settings')
+        InlineKeyboardButton("My Channel!", url='https://t.me/susanta_bhandarii')
         ],[
-        InlineKeyboardButton("Need Girlfriend", url='tg://settings')
+        InlineKeyboardButton("My YouTube channel", url='https://youtube.com/susantastarvlogs')
         ]
         ])
     if START_PIC:
@@ -74,7 +74,7 @@ async def cb_handler(client, query: CallbackQuery):
         await query.message.edit_text(
             text=f"""👋 Hello Developer {query.from_user.mention} \n\nI am an Advance file Renamer and file Converter BOT with permanent and custom thumbnail support.\n\nSend me any video or document !""",
             reply_markup=InlineKeyboardMarkup( [[
-        InlineKeyboardButton(" Developer ", url='https://t.me/anjel_neha')
+        InlineKeyboardButton(" Developer ", url='https://t.me/susanta_bhandari')
         ],[
         InlineKeyboardButton(' Updates', url='https://t.me/Susanta_Bhandarii'),
         InlineKeyboardButton(' Support', url='https://t.me/susanta_support')
@@ -82,9 +82,9 @@ async def cb_handler(client, query: CallbackQuery):
         InlineKeyboardButton(' About', callback_data='about'),
         InlineKeyboardButton(' Help', callback_data='help')
         ],[
-        InlineKeyboardButton("My best Friend !", url='tg://settings')
+        InlineKeyboardButton("My Channel!", url='https://t.me/susanta_bhandarii)
         ],[
-        InlineKeyboardButton("Need Girlfriend", url='tg://settings')
+        InlineKeyboardButton("My YouTube channel", url='https://youtube.com/susantastarvlogs)
         ]
         ]
                 )
@@ -116,7 +116,7 @@ async def cb_handler(client, query: CallbackQuery):
         await query.message.edit_text(
             text=mr.DEV_TXT,
             reply_markup=InlineKeyboardMarkup( [[
-                InlineKeyboardButton("My best Friend !", url="tg://settings")
+                InlineKeyboardButton("My Channel!", url="https://t.me/susanta_bhandarii)
                ],[
                InlineKeyboardButton(" 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
                InlineKeyboardButton(" 𝙱𝙰𝙲𝙺", callback_data = "start")
