@@ -8,7 +8,7 @@ routes = web.RouteTableDef()
 
 @routes.get("/", allow_head=True)
 async def root_route_handler(request):
-    return web.json_response("Telegram Subscribe @Susanta_Bhandarii")
+    return web.json_response("susantabhandari")
 
 
 async def web_server():
