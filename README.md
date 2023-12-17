@@ -95,5 +95,5 @@ python3 bot.py
 
 
 #### Join Telegram Channel 
- - [VJ Botz](https://telegram.me/VJ_Botz). Bot Updates Channel
- - Support Group [VJ-Support](https://telegram.me/VJ_Bot_Disscussion). For Bug report.
+ - [Telegram Channel](https://telegram.me/Susanta_Bhandarii). Bot Updates Channel
+ - Support Group [Telegram Support](https://telegram.me/Susanta_Support) can. For Bug report.
