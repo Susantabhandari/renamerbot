@@ -4,12 +4,12 @@
 
 class mr(object):
     PROGRESS_BAR = """\n
-╭━━━━❰ VJ Bot Renaming... ❱━➣
+╭━━━━❰ Susantaxrenamer Bot Renaming... ❱━➣
 ┣⪼ 🗂️ : {1} | {2}
 ┣⪼ ⏳️ : {0}%
 ┣⪼ 🚀 : {3}/s
 ┣⪼ ⏱️ : {4}
-╰━━━━━━━━━━━━━━━➣ """
+╰━━━━━❰ @Susanta_Support ❤️🙏🏻 ❱━━━➣ """
 
     ABOUT_TXT = """
 ╭───────────⍟
@@ -19,8 +19,10 @@ class mr(object):
 ├✏️ LANGUAGE : <a href=https://www.python.org>Python 3</a>
 ├💾 DATABASE : <a href=https://cloud.mongodb.com>MongoDB</a>
 ├🌀 𝚂𝙴𝚁𝚅𝙴𝚁 : <a href=https://www.oracle.com/cloud/>Render</a>
-├📊 BUILD-STATUS : Python v3.10.5              
+├📊 BUILD-STATUS : Python v3.10.5  
+├🍆 GitHub Repo  : <a hrwf=https://rb.gy/febuuv
 ╰───────────────⍟
+
                                 """
     HELP_TXT = """
 🌌 <b><u>HOW TO SET THUMBNAIL</u></b>
