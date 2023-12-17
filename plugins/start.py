@@ -82,9 +82,9 @@ async def cb_handler(client, query: CallbackQuery):
         InlineKeyboardButton(' About', callback_data='about'),
         InlineKeyboardButton(' Help', callback_data='help')
         ],[
-        InlineKeyboardButton("My Channel!", url='https://t.me/susanta_bhandarii")
+        InlineKeyboardButton("My Channel!", url='https://t.me/susanta_bhandarii')
         ],[
-        InlineKeyboardButton("My YouTube channel", url='https://youtube.com/susantastarvlogs")
+        InlineKeyboardButton("My YouTube channel", url='https://youtube.com/susantastarvlogs')
         ]
         ]
                 )
