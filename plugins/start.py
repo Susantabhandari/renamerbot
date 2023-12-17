@@ -82,9 +82,9 @@ async def cb_handler(client, query: CallbackQuery):
         InlineKeyboardButton(' About', callback_data='about'),
         InlineKeyboardButton(' Help', callback_data='help')
         ],[
-        InlineKeyboardButton("My Channel!", url='https://t.me/susanta_bhandarii')
+        InlineKeyboardButton(" My Channel!", url='https://t.me/susanta_bhandarii')
         ],[
-        InlineKeyboardButton("My YouTube channel", url='https://youtube.com/susantastarvlogs')
+        InlineKeyboardButton(" My YouTube channel", url='https://youtube.com/susantastarvlogs')
         ]
         ]
                 )
@@ -93,7 +93,7 @@ async def cb_handler(client, query: CallbackQuery):
         await query.message.edit_text(
             text=mr.HELP_TXT,
             reply_markup=InlineKeyboardMarkup( [[
-               InlineKeyboardButton("My Channel!", url="https://t.me/susanta_bhandarii")
+               InlineKeyboardButton(" My Channel!", url="https://t.me/susanta_bhandarii")
                ],[
                InlineKeyboardButton(" 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
                InlineKeyboardButton(" 𝙱𝙰𝙲𝙺", callback_data = "start")
@@ -105,7 +105,7 @@ async def cb_handler(client, query: CallbackQuery):
             text=mr.ABOUT_TXT.format(client.mention),
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup( [[
-                InlineKeyboardButton("My Channel!, url="https://t.me/susanta_bhandarii")
+                InlineKeyboardButton(" My Channel!", url="https://t.me/susanta_bhandarii")
                ],[
                InlineKeyboardButton(" 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
                InlineKeyboardButton(" 𝙱𝙰𝙲𝙺", callback_data = "start")
@@ -116,7 +116,7 @@ async def cb_handler(client, query: CallbackQuery):
         await query.message.edit_text(
             text=mr.DEV_TXT,
             reply_markup=InlineKeyboardMarkup( [[
-                InlineKeyboardButton("My Channel!", url="https://t.me/susanta_bhandarii")
+                InlineKeyboardButton(" My Channel!", url="https://t.me/susanta_bhandarii")
                ],[
                InlineKeyboardButton(" 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
                InlineKeyboardButton(" 𝙱𝙰𝙲𝙺", callback_data = "start")
